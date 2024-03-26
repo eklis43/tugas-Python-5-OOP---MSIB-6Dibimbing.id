@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+#Task 1
+
 class MarketingDataETL:
     def __init__(self, file_name):
         self.file_name = file_name
@@ -45,7 +47,8 @@ def store(self, output_file):
                 print("Terjadi kesalahan saat menyimpan data:", str(e))
         else:
             print("Data belum diekstrak dan ditransformasi. Lakukan ekstraksi dan transformasi terlebih dahulu.")
-            
+
+#Task 2
 class TargetedMarketingETL(MarketingDataETL):
     def __init__(self, file_name, segment_column, segment_threshold):
         super().__init__(file_name)
