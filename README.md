@@ -1,4 +1,4 @@
-# tugas-GIT-MSIB-6Dibimbing.id
+# Tugas GIT MSIB 6 Dibimbing
 
 Pada github ini terdapat kode python dari tugas Python part 5 : OOP yang terdiri dari soal-soal sebagai berikut:
 Task 1: Basic OOP
